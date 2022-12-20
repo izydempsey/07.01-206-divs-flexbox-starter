@@ -97,7 +97,7 @@ textarea {
 
 
 html {
-  background-color: #fff;
+  background-color: black;
   height: 100%;
 }
 
@@ -112,22 +112,28 @@ body {
   font-weight: 700;
   display: flex;
   justify-content: space-between;
+  border: 2px solid #8484cf;
+  background-color: black;
 }
 
 .div-1, .div-2, .div-3 {
   color: #fff;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
+  background-color: #757a82;
   height: 300px;
   display: flex;
   width: 30%;
   justify-content: center;
   align-items: center;
+  margin: 1%;
+  padding: 1%;
 }
 
-
-
+hr {
+    border: 1px solid #8484cf;
+    height: 275px;
+}
 
 /* ==========================================================================
    Helper classes
